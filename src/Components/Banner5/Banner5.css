@@ -1,0 +1,39 @@
+
+
+
+.childgone{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 90px;
+    background-color: #080808;
+    border-bottom: 5px solid gray;
+}
+
+.childgone img{
+    width: 40%;
+}
+
+
+.childp{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px 55px;
+  
+}
+
+.childp h2{
+    font-size: 50px;
+    color: white;
+}
+
+.childp p{
+    font-size: 25px;
+    color: white;
+}

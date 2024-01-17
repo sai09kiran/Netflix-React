@@ -1,0 +1,97 @@
+
+
+
+.faqpage{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 50px;
+    flex-direction: column;
+    background-color: #080808;
+    border-bottom: 5px solid gray;
+}
+
+.faqpage h2{
+    font-size: 50px;
+    /* padding-bottom: 90px; */
+    color: white;
+}
+
+.faq{
+    width: 100%;
+    padding: 50px 150px;
+}
+
+.faq .item{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+ 
+    flex-direction: column;
+}
+
+.faq .item .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    background-color: gray;
+    padding:  30px;
+    border-radius: 5px;
+}
+.faq .item .wrapper:hover{
+    background-color: lightgray;
+}
+
+.faq .item .question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.Answer .show{
+    height: auto;
+    max-height: 999999999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.email{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.email input{
+    width: 60%;
+    height: 50px;
+   background-color: transparent;
+    font-size:18px;
+    color: white;
+}
+
+.email button{
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
